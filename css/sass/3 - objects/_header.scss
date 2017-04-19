@@ -1,0 +1,44 @@
+.header{
+  padding: 1em 2% 0;
+  .logo{
+    max-width: 90%;
+  }
+}
+.search{
+  display: none;
+}
+.phone{
+  color: $lightblue;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 810px){
+  .header{
+    padding: 2em 0 0;
+    .logo {
+      float: left;
+      padding-left: 20px;
+    }
+  }
+  .header-rhs{
+    width: 25%;
+    float: right;
+    padding-right: 20px;
+  }
+  .search {
+    display: block;
+    form{
+      border-bottom: 1px solid #bdbdbd;
+      input, button{
+        padding: 0 0 5px 0;
+        background: none;
+        border:none;
+        font-size: .9em;
+        color: #bdbdbd;
+      }
+    }
+  }
+  .search form input:focus{
+    color: $lightblue;
+  }
+}

@@ -1,0 +1,21 @@
+.pagination{
+  margin-top: 2em;
+}
+.page-numbers{
+  background: $paleblue;
+  padding: 4px 6px;
+  border-radius: 3px;
+  color: $darkblue;
+  text-decoration: none;
+  margin-right: .2em;
+  &.current{
+    background: $lightblue;
+    color: #fff;
+    font-weight: 700;
+  }
+  &:hover{
+    background: $lightblue;
+    color: #fff;
+  }
+
+}

@@ -1,0 +1,73 @@
+.comments{
+  h2{
+    color: $darkblue;
+    font-style: italic;
+    margin-bottom: 0;
+  }
+  ul{
+    list-style: none;
+    margin-top: .5em;
+  }
+  .even{
+    background: $paleblue;
+    padding:20px;
+  }
+  .odd{
+    padding: 20px;
+    margin-top: 2em;
+  }
+  .comment-author{
+    color: $lightblue;
+  }
+  .comment-meta{
+    margin-top: 0;
+    a{
+      color: #666;
+      font-size: .8em;
+    }
+  }
+  img{
+    float: left;
+    max-width: 75px;
+    height: auto; 
+    margin-right: 10px;
+  }
+  .form-allowed-tags{
+    font-size: .8em;
+    line-height: 1.2;
+    color: #666;
+  }
+  p:first-of-type{
+    margin-top: .5em;
+  }
+  .comment-form-comment textarea,
+  .comment-form input{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    padding: 2px;
+    border:none;
+    background: $paleblue;
+  }
+  .comment-form label{
+    font-weight: 700;
+    font-size: .9em;
+  }
+  .required{
+    color: $brightpink;
+  }
+  .form-submit input{
+    background: $brightpink;
+    width: auto;
+    color:#fff;
+    border-top:none;
+    border-right: none;
+    border-left:none;
+    border-bottom: 2px solid $darkred;
+    font-weight: 700;
+    padding: 4px 8px;
+    &:hover,&:focus{
+      background: $darkred;
+    }
+  }
+}

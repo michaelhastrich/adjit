@@ -1,0 +1,59 @@
+.sidebar{
+    background: $paleblue;
+    padding: 1em 2% 2em;
+    border-bottom: 2px solid $darkblue;
+    h3{
+        border-bottom: 2px solid $lightblue;
+    }
+    ul{
+        list-style: none;
+        margin-left: 1em;
+    }
+    li{
+        margin-bottom: 1em;
+        &:before{
+            content: '\e802';
+            font-weight: 700;
+            color: $lightblue;
+            margin-left: -1em;
+            margin-right: .5em;
+            font-family: "fontello";
+            font-style: normal;
+            speak: none;
+        }
+    }
+    a{
+        color: $lightblue
+    }
+}
+/* widgets */
+.widget_ratings-widget {
+    h2{
+    display: inline;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 400;
+        a{ 
+            text-decoration: underline;
+        }
+    }
+    .excerpt,
+    .post-ratings{
+        display: none;
+    }
+
+}
+.widget_ratings-widget .stars{
+    display: block;
+    margin: 0;
+    img+img{
+        margin: 0;
+    }
+}
+@media screen and (min-width: 45em){
+    .sidebar{
+        float: right;
+        width: 33%;
+        margin-top: 0;
+    }
+}

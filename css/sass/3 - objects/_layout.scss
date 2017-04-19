@@ -1,0 +1,18 @@
+/* wrapper */
+.wrapper{
+    width: 100%;
+}
+.main{
+  margin: 0;
+}
+#wpstats{
+  display: none;
+}
+@media screen and (min-width: 810px){
+    .wrapper {
+        max-width:1040px;
+        width:95%;
+        margin:0 auto;
+        position:relative;
+    }
+}

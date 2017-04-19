@@ -1,0 +1,67 @@
+/* STYLES FOR G_FORMS */
+.footer-contact{
+    label{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+}
+.gform_wrapper .footer-contact textarea.large{
+    height: 100px;
+}
+.gform_wrapper input,
+.gform_wrapper textarea{
+    font-style: italic;
+    border:none;
+}
+.gform_wrapper .footer-contact .gform_footer{
+    margin-top: 0;
+    padding-top: .5em;
+}
+.gform_wrapper input[type=submit]{
+    background: $brightpink;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    border:none;
+    padding: 8px;
+    transition: all .2s ease-in;
+    &:hover, &:focus{
+        background: $darkred;
+    }
+}
+.practical form{
+    input{
+        font-style: italic;
+        border: none;
+        padding: 8px;
+        margin-bottom: 1em;
+        width: 100%;
+        color: #666; 
+    }
+    input[type="submit"]{
+        color: #fff;
+        background: $brightpink;
+        border-bottom: 2px solid $darkred;
+        font-weight: 700;
+    }
+}
+.main-contact-form{
+    margin: 2em 0;
+    background: $darkblue;
+    padding: 20px 20px 60px;
+    border-bottom: 3px solid $brightpink;
+    input[type="submit"]{
+        float: right;
+        border-bottom: 2px solid $darkred;
+    }
+    label{
+        color: #fff;
+        .gfield_required{
+            color: yellow;
+        }
+    }
+}
+html div#om-kpskojvqco-lightbox #om-lightbox-case-study-theme-optin{
+    background: $darkblue;
+}

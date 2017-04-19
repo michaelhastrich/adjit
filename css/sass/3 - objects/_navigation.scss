@@ -1,0 +1,140 @@
+nav > ul{
+    list-style: none;
+}
+.header-rhs{
+    margin-top: 0;
+}
+/* secundary header nav */
+.sec-nav{
+  margin-top: 0;
+  float: right;
+  ul{
+    margin: 0;
+  }
+  li{
+    display: inline-block;
+    line-height: 0;
+  }
+  a{
+    margin-right: 10px;
+    color: #bdbdbd;
+    font-size: .9em;
+  &:hover, &:focus{
+      color: $lightblue;
+    }
+  }
+}
+.main-nav{
+    position: relative;
+    height: 31px;
+    background: $lightblue;
+    .icon-menu{
+        display: block;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 5px 0 0 5px;
+    }
+    li{
+        line-height: 2;
+        padding: 0 5px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .icon-home{
+      color: #fff!important;
+    }
+    .current-menu-item{
+      background: $darkblue
+    }
+}
+#menu-mainmenu{
+    position: absolute;
+    top:31px;
+    margin: 0;
+    width: 100%;
+    background: $lightblue;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .6s ease-in;
+    li:last-child{
+        padding-bottom: 15px;
+    }
+}
+#menu-mainmenu.active{
+    max-height: 800px;
+    
+} 
+@media screen and (min-width: 810px){
+    /* general navigation styles */
+    nav > ul{
+        padding: 0;
+        margin: 0;
+        line-height: 0;
+        li{
+            display: inline-block;
+            //margin-top: 1em;
+        }
+    }
+    .sec-nav{
+        float: none;
+        ul{
+            margin: 1em 0;
+        }
+    }
+    /* main navigation */
+    .main-nav{
+      margin-top: 2em;
+      padding: 0 20px;
+      height: auto;
+      .icon-menu{
+        display: none;
+      }
+      li > a{
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+        line-height: 0;
+      }
+    }
+    .main-nav li{
+      display: inline-block;
+      line-height: 1;
+      padding: 10px 15px;
+      margin: 0 0 0 -4px;
+      transition: all .5s ease-out;
+      &:hover, &:focus{
+          background: $darkblue;
+        }
+    }
+    #menu-mainmenu{
+        position: relative;
+        top: 0;
+        margin: 1em 0;
+        max-height: none;
+        background: none;
+        overflow: visible;
+        li:last-child{
+            padding: 10px 15px;
+        }
+    }
+}
+/* breadcrumbs */
+.breadcrumbs{
+  font-size: .8em;
+  color: #787878;
+  // font-style: italic;
+}
+/* footer navigation */
+.footer-nav li{
+  display: block;
+  line-height: 1.6;
+  a{
+    color: #fff;
+    text-decoration: none;
+    &:hover, &:focus{
+      text-decoration: underline;
+    }
+  }
+}
