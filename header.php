@@ -10,10 +10,9 @@
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href='http://fonts.googleapis.com/css?family=Rancho|Lato:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Rancho|Lato:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
 		<?php wp_head(); ?>
-	
-  </head>
+	</head>
 	<body <?php body_class(); ?>>
 
 		<!-- wrapper -->
