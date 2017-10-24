@@ -1647,6 +1647,9 @@ html div#om-kpskojvqco-lightbox #om-lightbox-case-study-theme-optin {
   .widget_ratings-widget .stars img + img {
     margin: 0; }
 
+.widget_text .infusion-form input[type="text"] {
+  width: 100%; }
+
 @media screen and (min-width: 45em) {
   .sidebar {
     float: right;
