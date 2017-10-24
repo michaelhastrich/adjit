@@ -53,7 +53,11 @@
 .widget_text {
     .infusion-form {
         input[type="text"] {
+            border-bottom: 2px solid $darkblue;
             width: 100%;
+        }
+        input[type="submit"] {
+            border-bottom: 2px solid #603;
         }
     }
 }
