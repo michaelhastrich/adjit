@@ -401,4 +401,14 @@ function gform_tabindexer( $tab_index, $form = false ) {
     return GFCommon::$tab_index >= $starting_index ? GFCommon::$tab_index : $starting_index;
 }
 
+//Add custom content to each post
+add_filter( 'the_content', 'add_to_the_content' );
+function add_to_the_content( $content )
+{
+    if ( is_single() ) {
+        $content .= '<p><strong>Met plezier gelezen?</strong> <script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" data-leadbox-popup="144965c73f72a2:179bfd6f8946dc" data-leadbox-domain="adjustintime.lpusercontent.com">Schrijf je in en krijg iedere vrijdag om 10 uur een update van nieuwe artikelen.</a> Ontvang een pdf ebook over de weekreview als dank direct in je inbox.</p>';
+    }
+    return $content;
+}
+
 ?>
