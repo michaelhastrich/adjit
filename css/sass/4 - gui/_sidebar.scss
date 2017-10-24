@@ -52,6 +52,11 @@
 }
 .widget_text {
     .infusion-form {
+        label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
         input[type="text"] {
             border-bottom: 2px solid $darkblue;
             width: 100%;
@@ -59,6 +64,11 @@
         input[type="submit"] {
             border-bottom: 2px solid #603;
         }
+    }
+
+    img {
+        float:left; 
+        margin-right: 20px;
     }
 }
 @media screen and (min-width: 45em){

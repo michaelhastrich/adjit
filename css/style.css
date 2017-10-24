@@ -1647,11 +1647,18 @@ html div#om-kpskojvqco-lightbox #om-lightbox-case-study-theme-optin {
   .widget_ratings-widget .stars img + img {
     margin: 0; }
 
+.widget_text .infusion-form label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px; }
 .widget_text .infusion-form input[type="text"] {
   border-bottom: 2px solid #002549;
   width: 100%; }
 .widget_text .infusion-form input[type="submit"] {
   border-bottom: 2px solid #603; }
+.widget_text img {
+  float: left;
+  margin-right: 20px; }
 
 @media screen and (min-width: 45em) {
   .sidebar {
