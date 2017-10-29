@@ -1,6 +1,6 @@
 .sidebar{
     background: $paleblue;
-    padding: 1em 2% 2em;
+    padding: 1em 1em 2em;
     border-bottom: 2px solid $darkblue;
     h3{
         border-bottom: 2px solid $lightblue;
@@ -51,6 +51,17 @@
     }
 }
 .widget_text {
+    background-color: $darkblue;
+    color: white;
+    margin: -1em -1em 2em;
+    padding: 1em;
+    h3 {
+        border-bottom: 0;
+        color: $yellow;
+        font-size: 2em;
+        line-height: 1;
+        margin: 0;
+    }
     .infusion-form {
         label {
             display: block;
