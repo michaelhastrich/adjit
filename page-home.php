@@ -46,14 +46,14 @@
 
 		<div class="main-rhs">
 			<p class="counter">Al door <?php the_field('cntr-box');?> managers<br>gedownload</p>
-			<h2>Gratis Checklist<br>Inbox Zero</h2>
-			<p>Managers krijgen gemiddeld 240 e-mails per week.
-			Gebruik mijn korte checklist, dan heb je elke dag een lege inbox</p>
+			<h2>Gratis Handleiding<br>Weekreview</h2>
+			<p>Fluitend het weekend in!
+			Met behulp van jouw persoonlijke checklist in een uur overzicht, focus en grip.</p>
 
-			<form accept-charset="UTF-8" action="https://fm295.infusionsoft.com/app/form/process/374d33ba3946920c5dc6973a2578cdd9" class="infusion-form" method="POST">
-			   <input name="inf_form_xid" type="hidden" value="374d33ba3946920c5dc6973a2578cdd9" />
-			   <input name="inf_form_name" type="hidden" value="Vult formulier op Adjit in" />
-			   <input name="infusionsoft_version" type="hidden" value="1.50.0.37" />
+			<form accept-charset="UTF-8" action="https://fm295.infusionsoft.com/app/form/process/4be1eac3764075349a4cae7b98ea4226" class="infusion-form" method="POST">
+			   <input name="inf_form_xid" type="hidden" value="4be1eac3764075349a4cae7b98ea4226" />
+			   <input name="inf_form_name" type="hidden" value="Optin formulier" />
+			   <input name="infusionsoft_version" type="hidden" value="1.62.0.53" />
 			   <div class="infusion-field">
 			       <label for="inf_field_FirstName">Je voornaam*</label>
 			       <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" placeholder="Voornaam" />
@@ -63,7 +63,7 @@
 			       <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" placeholder="E-mailadres" />
 			   </div>
 			   <div class="infusion-submit">
-			       <input type="submit" value="Download de gratis checklist" />
+			       <input type="submit" value="Download de gratis handleiding" />
 			   </div>
 			</form>
 			<script type="text/javascript" src="https://fm295.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=0e8e84aad17720d17d1431513fede33b"></script>
@@ -107,6 +107,14 @@
 			</article>
 		</section>
 		<!-- /products-section -->
+
+		<section class="clients-section clear">
+			<h2>Organisaties die Adjustintime inzetten voor het verhogen van de managementproductiviteit.</h2>
+			<div class="clients">
+				<?php the_field('logo_bar', false, false); ?>
+			</div>
+		</section>
+		
 		<section class="add-section clear">
 			<div class="tips-list">
 				<h1>Top Tips</h1>
@@ -120,12 +128,12 @@
 			</div>
 			<div class="tips-mail">
 				<h2>Top Tips in je mailbox?</h2>
-				<p>Laat je naam en e-mailadres hier achter en je ontvangt iedere vrijdag een nieuwe tip waarmee je je productiviteit kunt verhogen in je mailbox. Daarnaast kun je gelijk de <a href="#">Handleiding ‘In 10 stappen naar Inbox Zero’</a> downloaden.</p>
+				<p>Laat je naam en e-mailadres hier achter en je ontvangt iedere vrijdag nieuwe tips in je mailbox waarmee je je productiviteit kunt verhogen. Daarnaast kun je gelijk de <a href="#">Handleiding ‘Weekreview’</a> downloaden.</p>
 
-				<form accept-charset="UTF-8" action="https://fm295.infusionsoft.com/app/form/process/374d33ba3946920c5dc6973a2578cdd9" class="infusion-form" method="POST">
-					<input name="inf_form_xid" type="hidden" value="374d33ba3946920c5dc6973a2578cdd9" />
-					<input name="inf_form_name" type="hidden" value="Vult formulier op Adjit in" />
-					<input name="infusionsoft_version" type="hidden" value="1.50.0.37" />
+				<form accept-charset="UTF-8" action="https://fm295.infusionsoft.com/app/form/process/4be1eac3764075349a4cae7b98ea4226" class="infusion-form" method="POST">
+					<input name="inf_form_xid" type="hidden" value="4be1eac3764075349a4cae7b98ea4226" />
+					<input name="inf_form_name" type="hidden" value="Optin formulier" />
+					<input name="infusionsoft_version" type="hidden" value="1.62.0.53" />
 					<div class="infusion-field">
 					   <label for="inf_field_FirstName">Je voornaam*</label>
 					   <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" placeholder="Voornaam" />
