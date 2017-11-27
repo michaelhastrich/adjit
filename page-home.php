@@ -114,7 +114,7 @@
 				<?php the_field('logo_bar', false, false); ?>
 			</div>
 		</section>
-		
+
 		<section class="add-section clear">
 			<div class="tips-list">
 				<h1>Top Tips</h1>
