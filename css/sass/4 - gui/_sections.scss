@@ -374,9 +374,6 @@
     float: right;
     margin-top: 0;
     padding-left: 20px;
-    h1{
-        font-size: 2.5em;
-    }
   }
 }
 .product-meta{
@@ -504,4 +501,15 @@
     .cta-bttn-sml{
         max-width: 290px;
     }
+}
+
+.clients-section {
+  padding: 0 20px;
+}
+
+.clients p {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 20px 40px;
 }
