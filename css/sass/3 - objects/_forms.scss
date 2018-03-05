@@ -1,5 +1,6 @@
 /* STYLES FOR G_FORMS */
-.footer-contact{
+.footer-contact,
+.infusion-wrapper {
     label{
         position: absolute;
         top: -9999px;
@@ -10,15 +11,21 @@
     height: 100px;
 }
 .gform_wrapper input,
-.gform_wrapper textarea{
-    font-style: italic;
+.gform_wrapper textarea,
+.infusion-wrapper input,
+.infusion-wrapper textarea {
     border:none;
+    font-style: italic;
+    padding: 4px;
+    width: 100%;
 }
 .gform_wrapper .footer-contact .gform_footer{
     margin-top: 0;
     padding-top: .5em;
 }
-.gform_wrapper input[type=submit]{
+.gform_wrapper input[type=submit],
+.infusion-wrapper button,
+.main-contact-form button {
     background: $brightpink;
     font-style: normal;
     font-weight: 700;
@@ -46,12 +53,13 @@
         font-weight: 700;
     }
 }
-.main-contact-form{
+.main-contact-form {
     margin: 2em 0;
     background: $darkblue;
     padding: 20px 20px 60px;
     border-bottom: 3px solid $brightpink;
-    input[type="submit"]{
+    
+    button[type="submit"]{
         float: right;
         border-bottom: 2px solid $darkred;
     }
@@ -61,7 +69,20 @@
             color: yellow;
         }
     }
+
+    .infusion-field {
+        display: flex;
+
+        > * {
+            flex: 1;
+
+            &:nth-child(2) {
+                flex: 2;
+            }
+        }
+    }
 }
 html div#om-kpskojvqco-lightbox #om-lightbox-case-study-theme-optin{
     background: $darkblue;
 }
+
